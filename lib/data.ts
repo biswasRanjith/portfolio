@@ -1,10 +1,11 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import SMD from "@/public/beddingroyal.png";
-import vankarFoundation from "@/public/vankarfoundation.png";
+import SMD from "@/public/SMD.png";
+import vankarFoundation from "@/public/3d_map3.jpg";
+import skyNet from "@/public/1712802699048.jpeg"
 import overseas from "@/public/overseas_website.png";
-import telegramBot from "@/public/telegram_bot.jpg";
-import balKrishnaGarba from "@/public/balkrishnagarba.png";
+import telegramBot from "@/public/bbt.png";
+import balKrishnaGarba from "@/public/image.png";
 
 export const links = [
   {
@@ -96,7 +97,7 @@ export const projectsData = [
       "vscode-icons:file-type-angular",
        "logos:aws"
     ],
-    imageUrl: vankarFoundation,
+    imageUrl: skyNet,
     urlLink: "https://www.avianco.io/#/avianco-skynet",
   },
   {
@@ -117,7 +118,7 @@ export const projectsData = [
   {
     title: "Share Socially",
     description:
-      "Designed and developed a Garba pass and stall booking website to streamline the booking process for event attendees. Implemented features that allowed users to book passes and stalls online, along with creating an online photo gallery for users to view event photos. This made the overall event management more accessible and organized for participants.",
+      "Developed a unified platform for managing multiple social media accounts, tailored for marketing teams. This solution enables single-click publishing of news articles across platforms like Facebook, Instagram, and Twitter through API integration. Key features include post scheduling, allowing users to plan content in advance, and real-time analytics for performance insights. The platform is built for scalability and efficiency, providing an all-in-one solution for streamlined social media management and consistent, impactful engagement.",
     tags: ["bootstrap", "Node.js", "javascript"],
     icons: [ "logos:nodejs-icon", "logos:bootstrap", "logos:javascript"],
     imageUrl: balKrishnaGarba,

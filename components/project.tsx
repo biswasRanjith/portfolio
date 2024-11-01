@@ -100,7 +100,7 @@ export default function Project({
           src={imageUrl}
           alt="Project I worked on"
           quality={95}
-          className="absolute hidden lg:block top-[60px] -right-10 w-[28.25rem] rounded-t-lg shadow-2xl scale-[1.0]
+          className="absolute hidden lg:block top-[100px] right-10 w-[20.25rem] rounded-t-lg rounded-b-lg shadow-2xl scale-[1.0]
           transition
           lg:scale-[1.1]
           "

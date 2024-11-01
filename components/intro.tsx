@@ -8,7 +8,8 @@ import { FaGithub } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import ParticleContainer from "./particle-container";
-import githubdp from "../../../Downloads/ranjith-biswas.jpg";
+import githubdp from "../public/ranjith-biswas.jpg";
+// import myPDF from '../public/'
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -33,12 +34,12 @@ export default function Intro() {
           >
             <Image
               src={githubdp}
-              alt="Ricardo portrait"
+              alt="Ranjith portrait"
               width="192"
               height="192"
               quality="100"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-24 w-24 w-[9.5rem] h-[9.5rem] rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
 
@@ -59,12 +60,13 @@ export default function Intro() {
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-0 sm:px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl text-white max-w-[50rem] mx-auto"
+        className="mb-10 mt-4 px-0 sm:px-4 text-3xl !leading-[1.5] sm:text-3xl text-white max-w-[68rem] mx-auto"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Ranjith Biswas.</span> I'm a{" "}
-        <span className="font-bold">FullStack software engineer</span>{" "} specializing in JavaScript, Node.js, React, Angular, SQL and NoSQL. With over 6 years of industrial exprience in delivering reliable, efficient, and scalable solutions clients can trust.
+        <span className="font-bold">FullStack software engineer</span>{" "} with over 6 years of experience in delivering high-performance, scalable solutions that stand the test of time. With expertise in JavaScript, Node.js, React, Angular, SQL, and NoSQL, I build intuitive, reliable applications that exceed client expectations. My approach blends precision and creativity, ensuring every project is crafted with a focus on efficiency, security, and user experience.<br />
+        <span className="font-bold">Let’s turn ideas into impactful digital solutions!</span>
       </motion.h1>
 
       <motion.div
@@ -92,15 +94,24 @@ export default function Intro() {
           <BsLinkedin className="opacity-70" />
         </a>
 
-        <a
+       
+          <a href="./RANJITH_BISWAS_FullStack.pdf" target="_blank" rel="noopener noreferrer">
+          <button
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
-          href="https://www.linkedin.com/in/ranjithbiswas755/"
-          target="_blank"
+          // href="https://www.linkedin.com/in/ranjithbiswas755/"
+          // target="_blank"
         >
           <span className="opacity-70">View CV</span>
           <BsDownload className="opacity-70" />
-        </a>
+          </button>
+          </a>
+          
+        
 
+
+       
+        
+          
 
       </motion.div>
     </section>
