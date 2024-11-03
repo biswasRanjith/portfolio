@@ -95,7 +95,8 @@ export default function Intro() {
         </a>
 
        
-          <a href="./RANJITH_BISWAS_FullStack.pdf" target="_blank" rel="noopener noreferrer">
+          <a 
+          href="./RANJITH_BISWAS_FullStack.pdf" target="_blank" rel="noopener noreferrer">
           <button
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
           // href="https://www.linkedin.com/in/ranjithbiswas755/"
